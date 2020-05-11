@@ -355,10 +355,6 @@ namespace SunMagnetogramAnalyzer
             string crtDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             try
             {
-                foreach (Process proc in Process.GetProcessesByName("SunMagnetogramAnalyzer"))
-                {
-                    proc.Close();
-                }
                 if (Directory.Exists("fits"))
                 {
                     Directory.Delete("fits", true);
@@ -524,6 +520,11 @@ namespace SunMagnetogramAnalyzer
                     return;
             }
             
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
