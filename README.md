@@ -1,0 +1,2 @@
+# SunMagnetogramAnalyzer
+ SunMagnetogramAnalyzer
