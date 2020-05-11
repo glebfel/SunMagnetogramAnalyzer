@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\bin\Debug\CSharpFITS.xml
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\bin\Debug\CSharpFITS.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\bin\Debug\CSharpFITS.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\obj\Debug\CSharpFITS.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\obj\Debug\CSharpFITS.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\SunMagnetogramAnalyzer\CSharpFITS\src\obj\Debug\CSharpFITS.pdb

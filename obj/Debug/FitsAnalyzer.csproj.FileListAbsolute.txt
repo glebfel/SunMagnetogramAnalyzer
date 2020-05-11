@@ -1,0 +1,48 @@
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\cfitsio.dll
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\Funpack.exe
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe.config
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\FitsAnalyzer.pdb
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\CSharpFITS.dll
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\CSharpFITS.pdb
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\bin\Debug\CSharpFITS.xml
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.CalcForm.resources
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.MainForm.resources
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.Properties.Resources.resources
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.CopyComplete
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\FitsAnalyzer-master\FitsAnalyzer\obj\Debug\FitsAnalyzer.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\cfitsio.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\Funpack.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe.config
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\FitsAnalyzer.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\CSharpFITS.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\CSharpFITS.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\bin\Debug\CSharpFITS.xml
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.Properties.Resources.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.CopyComplete
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\FitsAnalyzer.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcForm.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\FitsAnalyzer_с_графиком\FitsAnalyzer\obj\Debug\SunMagnetogramAnalyzer.MainForm.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\cfitsio.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\Funpack.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe.config
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\FitsAnalyzer.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\CSharpFITS.dll
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\CSharpFITS.pdb
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\bin\Debug\CSharpFITS.xml
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcForm.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\SunMagnetogramAnalyzer.MainForm.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.Properties.Resources.resources
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.csproj.CopyComplete
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.exe
+C:\Users\Asus\Desktop\Курсовая работа\Прога для курсача\SunMagnetogramAnalyzer\FitsAnalyzer\obj\Debug\FitsAnalyzer.pdb
