@@ -56,8 +56,6 @@ C:\Users\User\Desktop\SunMagnetogramAnalyzer\bin\Debug\CSharpFITS.dll
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\bin\Debug\CSharpFITS.pdb
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\bin\Debug\CSharpFITS.xml
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.csprojAssemblyReference.cache
-C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcForm.resources
-C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcFluxForm.resources
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.MainForm.resources
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.Properties.Resources.resources
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.csproj.GenerateResource.cache
@@ -65,3 +63,5 @@ C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.cs
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.csproj.CopyComplete
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.exe
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.pdb
+C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcAbsForceForm.resources
+C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcForceForm.resources

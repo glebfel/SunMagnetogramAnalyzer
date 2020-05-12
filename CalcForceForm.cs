@@ -12,12 +12,12 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SunMagnetogramAnalyzer
 {
-    public partial class CalcForm : Form
+    public partial class CalcForceForm : Form
     {
         public FitsWrapper fits;
         public string[] files;
 
-        public CalcForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
+        public CalcForceForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
         {
             InitializeComponent();
             minAmplTrackBar.Value = minAmplTrackBar.Minimum = maxAmplTrackBar.Minimum = 10 * (int)minVal;

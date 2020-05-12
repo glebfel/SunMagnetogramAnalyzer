@@ -423,7 +423,7 @@ namespace SunMagnetogramAnalyzer
             toolStripProgressLabel.Visible = false;
             toolStripStatusLabel.Text = $"Готово";
 
-            var calcForm = new CalcForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
+            var calcForm = new CalcForceForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
             calcForm.fits = this.fits;
             calcForm.files = this.files;
             calcForm.ShowDialog();
@@ -481,21 +481,30 @@ namespace SunMagnetogramAnalyzer
                         MessageBoxIcon.Error);
                     return;
                 }
-                if ((-1.0) * crtMinAmpl < crtMaxAmpl)
+                if (crtMinAmpl < minAmpl)
+                    minAmpl = crtMinAmpl;
+                if (crtMaxAmpl > maxAmpl)
                     maxAmpl = crtMaxAmpl;
-                else
-                    maxAmpl = (-1.0)*crtMinAmpl;
+                if (crtMinDateTime < minDateTime)
+                    minDateTime = crtMinDateTime;
+                if (crtMaxDateTime > maxDateTime)
+                    maxDateTime = crtMaxDateTime;
                 i++;
                 var progress = (int)(100 * i / files.Length);
                 toolStripProgressBar.Value = progress;
                 toolStripProgressLabel.Text = $"{progress} %";
             }
 
+            //Определение наибольшего абсолютного значения
+            if (((-1.0) * minAmpl) > maxAmpl)
+                maxAmpl = (-1.0) * minAmpl;
+            minAmpl = 0.0;
+           
             toolStripProgressBar.Visible = false;
             toolStripProgressLabel.Visible = false;
             toolStripStatusLabel.Text = $"Готово";
 
-            var calcForm2 = new CalcFluxForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
+            var calcForm2 = new CalcAbsForceForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
             calcForm2.fits = this.fits;
             calcForm2.files = this.files;
             calcForm2.ShowDialog();

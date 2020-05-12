@@ -1,6 +1,6 @@
 ﻿namespace SunMagnetogramAnalyzer
 {
-	partial class CalcFluxForm
+	partial class CalcAbsForceForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -29,7 +29,7 @@
 		private void InitializeComponent()
 		{
 			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcFluxForm));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcAbsForceForm));
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.maxAmplLabel = new System.Windows.Forms.Label();
 			this.minAmplLabel = new System.Windows.Forms.Label();
@@ -155,7 +155,7 @@
 			this.saveButton.UseVisualStyleBackColor = true;
 			this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
 			// 
-			// CalcFluxForm
+			// CalcAbsForceForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,9 +166,9 @@
 			this.Controls.Add(this.progressBar);
 			this.Controls.Add(this.groupBox1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "CalcFluxForm";
+			this.Name = "CalcAbsForceForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "Изменение абсолютного потока";
+			this.Text = "Изменение средней абсолютной величины магнитного поля";
 			this.Load += new System.EventHandler(this.CalcFluxForm_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();

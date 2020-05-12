@@ -13,11 +13,11 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SunMagnetogramAnalyzer
 {
-	public partial class CalcFluxForm : Form
+	public partial class CalcAbsForceForm : Form
 	{
 		public FitsWrapper fits;
 		public string[] files;
-		public CalcFluxForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
+		public CalcAbsForceForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
 		{
 
 			InitializeComponent();
@@ -66,7 +66,7 @@ namespace SunMagnetogramAnalyzer
 				List<DateValue> points;
 				try
 				{
-					fits.CalcDependencyFlux(file, minAmplTrackBar.Value / 10.0,
+					fits.CalcDependencyAbsForce(file, minAmplTrackBar.Value / 10.0,
 										maxAmplTrackBar.Value / 10.0, out points);
 				}
 				catch (Exception ex)

@@ -346,7 +346,7 @@ namespace SunMagnetogramAnalyzer
         /// <param name="min">минимальное значение</param>
         /// <param name="max">максимальное значение</param>
         /// <param name="points">пара типа</param>
-        public void CalcDependencyFlux(string file, double min, double max, out List<DateValue> points)
+        public void CalcDependencyAbsForce(string file, double min, double max, out List<DateValue> points)
         {
             fits = new Fits(file, FileAccess.Read);
             hdus = fits.Read();

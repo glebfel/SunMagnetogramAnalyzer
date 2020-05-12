@@ -2,7 +2,7 @@
 
 namespace SunMagnetogramAnalyzer
 {
-    partial class CalcForm
+    partial class CalcForceForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@ namespace SunMagnetogramAnalyzer
         private void InitializeComponent()
         {
 			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcForm));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalcForceForm));
 			this.minAmplTrackBar = new System.Windows.Forms.TrackBar();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.maxAmplTrackBar = new System.Windows.Forms.TrackBar();
