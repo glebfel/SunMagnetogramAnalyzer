@@ -167,7 +167,7 @@
 			this.Controls.Add(this.groupBox1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "CalcFluxForm";
-			this.Text = "Изменение среднего абсолютного потока";
+			this.Text = "Изменение абсолютного потока";
 			this.Load += new System.EventHandler(this.CalcFluxForm_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();

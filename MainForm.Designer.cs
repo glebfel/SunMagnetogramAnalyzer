@@ -169,22 +169,22 @@
 			this.calcToolStripMenuItem.Enabled = false;
 			this.calcToolStripMenuItem.Name = "calcToolStripMenuItem";
 			this.calcToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-			this.calcToolStripMenuItem.Size = new System.Drawing.Size(358, 26);
+			this.calcToolStripMenuItem.Size = new System.Drawing.Size(371, 26);
 			this.calcToolStripMenuItem.Text = "Изменение средней велечины";
 			this.calcToolStripMenuItem.Click += new System.EventHandler(this.CalcToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(355, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(368, 6);
 			// 
 			// calcToolStripMenuItem2
 			// 
 			this.calcToolStripMenuItem2.Enabled = false;
 			this.calcToolStripMenuItem2.Name = "calcToolStripMenuItem2";
 			this.calcToolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.K)));
-			this.calcToolStripMenuItem2.Size = new System.Drawing.Size(358, 26);
-			this.calcToolStripMenuItem2.Text = "Изменение среднего потока";
+			this.calcToolStripMenuItem2.Size = new System.Drawing.Size(371, 26);
+			this.calcToolStripMenuItem2.Text = "Изменение абсолютного потока";
 			this.calcToolStripMenuItem2.Click += new System.EventHandler(this.CalcToolStripMenuItem2_Click);
 			// 
 			// helpMenuItem
