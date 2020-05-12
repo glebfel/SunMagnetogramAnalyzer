@@ -56,7 +56,7 @@ namespace SunMagnetogramAnalyzer
 			this.minAmplTrackBar.Location = new System.Drawing.Point(8, 23);
 			this.minAmplTrackBar.Margin = new System.Windows.Forms.Padding(4);
 			this.minAmplTrackBar.Name = "minAmplTrackBar";
-			this.minAmplTrackBar.Size = new System.Drawing.Size(782, 56);
+			this.minAmplTrackBar.Size = new System.Drawing.Size(757, 56);
 			this.minAmplTrackBar.TabIndex = 0;
 			this.minAmplTrackBar.Scroll += new System.EventHandler(this.minAmplTrackBar_Scroll);
 			this.minAmplTrackBar.ValueChanged += new System.EventHandler(this.MinAmplTrackBar_ValueChanged);
@@ -69,11 +69,11 @@ namespace SunMagnetogramAnalyzer
 			this.groupBox1.Controls.Add(this.maxAmplTextBox);
 			this.groupBox1.Controls.Add(this.minAmplTextBox);
 			this.groupBox1.Controls.Add(this.minAmplTrackBar);
-			this.groupBox1.Location = new System.Drawing.Point(24, 13);
+			this.groupBox1.Location = new System.Drawing.Point(13, 13);
 			this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-			this.groupBox1.Size = new System.Drawing.Size(1073, 148);
+			this.groupBox1.Size = new System.Drawing.Size(1084, 148);
 			this.groupBox1.TabIndex = 1;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Диапазон магнитного поля (Гс)";
@@ -84,7 +84,7 @@ namespace SunMagnetogramAnalyzer
 			this.maxAmplTrackBar.Location = new System.Drawing.Point(8, 86);
 			this.maxAmplTrackBar.Margin = new System.Windows.Forms.Padding(4);
 			this.maxAmplTrackBar.Name = "maxAmplTrackBar";
-			this.maxAmplTrackBar.Size = new System.Drawing.Size(782, 56);
+			this.maxAmplTrackBar.Size = new System.Drawing.Size(757, 56);
 			this.maxAmplTrackBar.TabIndex = 3;
 			this.maxAmplTrackBar.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
 			this.maxAmplTrackBar.Scroll += new System.EventHandler(this.maxAmplTrackBar_Scroll);
@@ -93,7 +93,7 @@ namespace SunMagnetogramAnalyzer
 			// maxAmplLabel
 			// 
 			this.maxAmplLabel.AutoSize = true;
-			this.maxAmplLabel.Location = new System.Drawing.Point(823, 125);
+			this.maxAmplLabel.Location = new System.Drawing.Point(926, 104);
 			this.maxAmplLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.maxAmplLabel.Name = "maxAmplLabel";
 			this.maxAmplLabel.Size = new System.Drawing.Size(0, 17);
@@ -102,7 +102,7 @@ namespace SunMagnetogramAnalyzer
 			// minAmplLabel
 			// 
 			this.minAmplLabel.AutoSize = true;
-			this.minAmplLabel.Location = new System.Drawing.Point(823, 46);
+			this.minAmplLabel.Location = new System.Drawing.Point(926, 30);
 			this.minAmplLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.minAmplLabel.Name = "minAmplLabel";
 			this.minAmplLabel.Size = new System.Drawing.Size(0, 17);
@@ -111,7 +111,7 @@ namespace SunMagnetogramAnalyzer
 			// maxAmplTextBox
 			// 
 			this.maxAmplTextBox.Enabled = false;
-			this.maxAmplTextBox.Location = new System.Drawing.Point(816, 99);
+			this.maxAmplTextBox.Location = new System.Drawing.Point(773, 99);
 			this.maxAmplTextBox.Margin = new System.Windows.Forms.Padding(4);
 			this.maxAmplTextBox.Name = "maxAmplTextBox";
 			this.maxAmplTextBox.Size = new System.Drawing.Size(145, 22);
@@ -121,7 +121,7 @@ namespace SunMagnetogramAnalyzer
 			// minAmplTextBox
 			// 
 			this.minAmplTextBox.Enabled = false;
-			this.minAmplTextBox.Location = new System.Drawing.Point(816, 20);
+			this.minAmplTextBox.Location = new System.Drawing.Point(773, 25);
 			this.minAmplTextBox.Margin = new System.Windows.Forms.Padding(4);
 			this.minAmplTextBox.Name = "minAmplTextBox";
 			this.minAmplTextBox.Size = new System.Drawing.Size(145, 22);
@@ -131,7 +131,7 @@ namespace SunMagnetogramAnalyzer
 			// 
 			// calcButton
 			// 
-			this.calcButton.Location = new System.Drawing.Point(892, 576);
+			this.calcButton.Location = new System.Drawing.Point(903, 576);
 			this.calcButton.Margin = new System.Windows.Forms.Padding(4);
 			this.calcButton.Name = "calcButton";
 			this.calcButton.Size = new System.Drawing.Size(205, 28);
@@ -144,20 +144,20 @@ namespace SunMagnetogramAnalyzer
 			// 
 			chartArea1.Name = "ChartArea1";
 			this.dataChart.ChartAreas.Add(chartArea1);
-			this.dataChart.Location = new System.Drawing.Point(24, 169);
+			this.dataChart.Location = new System.Drawing.Point(13, 169);
 			this.dataChart.Margin = new System.Windows.Forms.Padding(4);
 			this.dataChart.Name = "dataChart";
-			this.dataChart.Size = new System.Drawing.Size(1073, 384);
+			this.dataChart.Size = new System.Drawing.Size(1095, 384);
 			this.dataChart.TabIndex = 5;
 			this.dataChart.Text = "chart1";
 			this.dataChart.Click += new System.EventHandler(this.dataChart_Click);
 			// 
 			// progressBar
 			// 
-			this.progressBar.Location = new System.Drawing.Point(24, 576);
+			this.progressBar.Location = new System.Drawing.Point(13, 576);
 			this.progressBar.Margin = new System.Windows.Forms.Padding(4);
 			this.progressBar.Name = "progressBar";
-			this.progressBar.Size = new System.Drawing.Size(818, 28);
+			this.progressBar.Size = new System.Drawing.Size(848, 28);
 			this.progressBar.TabIndex = 6;
 			this.progressBar.Click += new System.EventHandler(this.progressBar_Click);
 			// 
@@ -165,7 +165,7 @@ namespace SunMagnetogramAnalyzer
 			// 
 			this.saveButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.saveButton.Enabled = false;
-			this.saveButton.Location = new System.Drawing.Point(892, 612);
+			this.saveButton.Location = new System.Drawing.Point(903, 612);
 			this.saveButton.Margin = new System.Windows.Forms.Padding(4);
 			this.saveButton.Name = "saveButton";
 			this.saveButton.Size = new System.Drawing.Size(205, 28);
@@ -179,7 +179,7 @@ namespace SunMagnetogramAnalyzer
 			// 
 			this.openFileDialog1.FileName = "openFileDialog1";
 			// 
-			// CalcForm
+			// CalcForceForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,7 +194,7 @@ namespace SunMagnetogramAnalyzer
 			this.Margin = new System.Windows.Forms.Padding(4);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
-			this.Name = "CalcForm";
+			this.Name = "CalcForceForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "Изменение средней велечины магнитного поля по полярности";
 			this.Load += new System.EventHandler(this.CalcForm_Load);
