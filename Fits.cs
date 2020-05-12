@@ -436,8 +436,9 @@ namespace SunMagnetogramAnalyzer
                                     sum += ampl;
                                 else
                                     sum += ampl*(-1.0);
+                                pointCount++;
                             }
-                            pointCount++;
+                            
                         }
                     }
 
