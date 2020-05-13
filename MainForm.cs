@@ -504,7 +504,7 @@ namespace SunMagnetogramAnalyzer
             toolStripProgressLabel.Visible = false;
             toolStripStatusLabel.Text = $"Готово";
 
-            var calcForm2 = new CalcAbsForceForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
+            var calcForm2 = new CalcAbsFluxForm(minAmpl, maxAmpl, minDateTime, maxDateTime);
             calcForm2.fits = this.fits;
             calcForm2.files = this.files;
             calcForm2.ShowDialog();

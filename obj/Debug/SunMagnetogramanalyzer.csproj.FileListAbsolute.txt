@@ -63,5 +63,5 @@ C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.cs
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.csproj.CopyComplete
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.exe
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.pdb
-C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcAbsForceForm.resources
 C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcForceForm.resources
+C:\Users\User\Desktop\SunMagnetogramAnalyzer\obj\Debug\SunMagnetogramAnalyzer.CalcAbsFluxForm.resources

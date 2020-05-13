@@ -13,11 +13,11 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SunMagnetogramAnalyzer
 {
-	public partial class CalcAbsForceForm : Form
+	public partial class CalcAbsFluxForm : Form
 	{
 		public FitsWrapper fits;
 		public string[] files;
-		public CalcAbsForceForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
+		public CalcAbsFluxForm(double minVal, double maxVal, DateTime minDateTime, DateTime maxDateTime)
 		{
 
 			InitializeComponent();

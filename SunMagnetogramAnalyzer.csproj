@@ -71,11 +71,11 @@
     <Compile Include="CalcForceForm.Designer.cs">
       <DependentUpon>CalcForceForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CalcAbsForceForm.cs">
+    <Compile Include="CalcAbsFluxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CalcAbsForceForm.Designer.cs">
-      <DependentUpon>CalcAbsForceForm.cs</DependentUpon>
+    <Compile Include="CalcAbsFluxForm.Designer.cs">
+      <DependentUpon>CalcAbsFluxForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Fits.cs" />
     <Compile Include="MainForm.cs">
@@ -89,8 +89,8 @@
     <EmbeddedResource Include="CalcForceForm.resx">
       <DependentUpon>CalcForceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CalcAbsForceForm.resx">
-      <DependentUpon>CalcAbsForceForm.cs</DependentUpon>
+    <EmbeddedResource Include="CalcAbsFluxForm.resx">
+      <DependentUpon>CalcAbsFluxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
