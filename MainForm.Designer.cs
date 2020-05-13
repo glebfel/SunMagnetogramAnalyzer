@@ -169,14 +169,14 @@
 			this.calcToolStripMenuItem.Enabled = false;
 			this.calcToolStripMenuItem.Name = "calcToolStripMenuItem";
 			this.calcToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-			this.calcToolStripMenuItem.Size = new System.Drawing.Size(449, 26);
-			this.calcToolStripMenuItem.Text = "Изменение средней величины";
+			this.calcToolStripMenuItem.Size = new System.Drawing.Size(439, 26);
+			this.calcToolStripMenuItem.Text = "Изменение средней величины поля";
 			this.calcToolStripMenuItem.Click += new System.EventHandler(this.CalcToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(446, 6);
+			this.toolStripSeparator2.Size = new System.Drawing.Size(436, 6);
 			// 
 			// calcToolStripMenuItem2
 			// 
