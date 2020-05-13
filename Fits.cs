@@ -339,14 +339,14 @@ namespace SunMagnetogramAnalyzer
             }
         }
         /// <summary>
-        /// Создание списка пар: дата - среднее абсолютное значение магнитного потока в заданном диапазоне
+        /// Создание списка пар: дата - средний абсолютный поток в заданном диапазоне
         /// (также для последовательности HDU-блоков в одном FITS-файле)
         /// </summary>
         /// <param name="file">имя файла</param>
         /// <param name="min">минимальное значение</param>
         /// <param name="max">максимальное значение</param>
         /// <param name="points">пара типа</param>
-        public void CalcDependencyAbsForce(string file, double min, double max, out List<DateValue> points)
+        public void CalcDependencyAbsFlux(string file, double min, double max, out List<DateValue> points)
         {
             fits = new Fits(file, FileAccess.Read);
             hdus = fits.Read();

@@ -66,7 +66,7 @@ namespace SunMagnetogramAnalyzer
 				List<DateValue> points;
 				try
 				{
-					fits.CalcDependencyAbsForce(file, minAmplTrackBar.Value / 10.0,
+					fits.CalcDependencyAbsFlux(file, minAmplTrackBar.Value / 10.0,
 										maxAmplTrackBar.Value / 10.0, out points);
 				}
 				catch (Exception ex)
