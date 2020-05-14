@@ -43,7 +43,7 @@ namespace SunMagnetogramAnalyzer
                 minAmplTrackBar.Value = maxAmplTrackBar.Value;
         }
 
-        private void CalcButton_Click(object sender, EventArgs e)
+        private void calcButton_Click(object sender, EventArgs e)
         {
             dataChart.Series.Clear();
             dataChart.Series.Add("SumSeries");

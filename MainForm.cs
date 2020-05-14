@@ -55,7 +55,7 @@ namespace SunMagnetogramAnalyzer
             };
             multipleSwitchableControls = new List<ToolStripItem>
             {
-                previousToolStripMenuItem, nextToolStripMenuItem, actionToolStripMenuItem, calcToolStripMenuItem, calcToolStripMenuItem2,
+                previousToolStripMenuItem, nextToolStripMenuItem, actionToolStripMenuItem, calcForceValueMenuItem, calcAbsFluxValueMenuItem,
                 toolStripPreviousButton, toolStripNumberComboBox, toolStripNextButton
             };
             this.Text = $"{Application.ProductName}";
@@ -372,7 +372,7 @@ namespace SunMagnetogramAnalyzer
             }
         }
 
-        private void CalcToolStripMenuItem_Click(object sender, EventArgs e)
+        private void calcForceValueMenuItem_Click(object sender, EventArgs e)
         {
             toolStripStatusLabel.Text = "Расчет диапазона значений магнитных полей";
             toolStripProgressBar.Value = 0;
@@ -449,7 +449,7 @@ namespace SunMagnetogramAnalyzer
 
         }
 
-        private void CalcToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void calcAbsFluxValueMenuItem_Click(object sender, EventArgs e)
         {
             toolStripStatusLabel.Text = "Расчет диапазона абсолютных значений магнитного потока";
             toolStripProgressBar.Value = 0;
@@ -532,6 +532,11 @@ namespace SunMagnetogramAnalyzer
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void actionToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

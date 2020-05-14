@@ -138,7 +138,7 @@ namespace SunMagnetogramAnalyzer
 			this.calcButton.TabIndex = 4;
 			this.calcButton.Text = "Рассчитать изменение";
 			this.calcButton.UseVisualStyleBackColor = true;
-			this.calcButton.Click += new System.EventHandler(this.CalcButton_Click);
+			this.calcButton.Click += new System.EventHandler(this.calcButton_Click);
 			// 
 			// dataChart
 			// 

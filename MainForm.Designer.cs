@@ -39,9 +39,9 @@
 			this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
 			this.nextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.actionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.calcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.calcForceValueMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-			this.calcToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+			this.calcAbsFluxValueMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.helpMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
 			this.toolStripOpenFileButton = new System.Windows.Forms.ToolStripButton();
@@ -156,36 +156,37 @@
 			// actionToolStripMenuItem
 			// 
 			this.actionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calcToolStripMenuItem,
+            this.calcForceValueMenuItem,
             this.toolStripSeparator2,
-            this.calcToolStripMenuItem2});
+            this.calcAbsFluxValueMenuItem});
 			this.actionToolStripMenuItem.Enabled = false;
 			this.actionToolStripMenuItem.Name = "actionToolStripMenuItem";
 			this.actionToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
 			this.actionToolStripMenuItem.Text = "Действия";
+			this.actionToolStripMenuItem.Click += new System.EventHandler(this.actionToolStripMenuItem_Click);
 			// 
-			// calcToolStripMenuItem
+			// calcForceValueMenuItem
 			// 
-			this.calcToolStripMenuItem.Enabled = false;
-			this.calcToolStripMenuItem.Name = "calcToolStripMenuItem";
-			this.calcToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-			this.calcToolStripMenuItem.Size = new System.Drawing.Size(439, 26);
-			this.calcToolStripMenuItem.Text = "Изменение средней величины поля";
-			this.calcToolStripMenuItem.Click += new System.EventHandler(this.CalcToolStripMenuItem_Click);
+			this.calcForceValueMenuItem.Enabled = false;
+			this.calcForceValueMenuItem.Name = "calcForceValueMenuItem";
+			this.calcForceValueMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+			this.calcForceValueMenuItem.Size = new System.Drawing.Size(439, 26);
+			this.calcForceValueMenuItem.Text = "Изменение средней величины поля";
+			this.calcForceValueMenuItem.Click += new System.EventHandler(this.calcForceValueMenuItem_Click);
 			// 
 			// toolStripSeparator2
 			// 
 			this.toolStripSeparator2.Name = "toolStripSeparator2";
 			this.toolStripSeparator2.Size = new System.Drawing.Size(436, 6);
 			// 
-			// calcToolStripMenuItem2
+			// calcAbsFluxValueMenuItem
 			// 
-			this.calcToolStripMenuItem2.Enabled = false;
-			this.calcToolStripMenuItem2.Name = "calcToolStripMenuItem2";
-			this.calcToolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.K)));
-			this.calcToolStripMenuItem2.Size = new System.Drawing.Size(439, 26);
-			this.calcToolStripMenuItem2.Text = "Изменение среднего абсолютного потока";
-			this.calcToolStripMenuItem2.Click += new System.EventHandler(this.CalcToolStripMenuItem2_Click);
+			this.calcAbsFluxValueMenuItem.Enabled = false;
+			this.calcAbsFluxValueMenuItem.Name = "calcAbsFluxValueMenuItem";
+			this.calcAbsFluxValueMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.K)));
+			this.calcAbsFluxValueMenuItem.Size = new System.Drawing.Size(439, 26);
+			this.calcAbsFluxValueMenuItem.Text = "Изменение среднего абсолютного потока";
+			this.calcAbsFluxValueMenuItem.Click += new System.EventHandler(this.calcAbsFluxValueMenuItem_Click);
 			// 
 			// helpMenuItem
 			// 
@@ -442,10 +443,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn KeyColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ValueColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn CommentColumn;
-        private System.Windows.Forms.ToolStripMenuItem calcToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calcForceValueMenuItem;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-		private System.Windows.Forms.ToolStripMenuItem calcToolStripMenuItem2;
+		private System.Windows.Forms.ToolStripMenuItem calcAbsFluxValueMenuItem;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		private System.Windows.Forms.ToolStripMenuItem helpMenuItem;
 	}
