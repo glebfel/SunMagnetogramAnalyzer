@@ -451,7 +451,7 @@ namespace SunMagnetogramAnalyzer
 
         private void calcAbsFluxValueMenuItem_Click(object sender, EventArgs e)
         {
-            toolStripStatusLabel.Text = "Расчет диапазона абсолютных значений магнитного потока";
+            toolStripStatusLabel.Text = "Расчет диапазона абсолютных значений потока магнитного потока";
             toolStripProgressBar.Value = 0;
             toolStripProgressBar.Visible = true;
             toolStripProgressLabel.Text = "0 %";
