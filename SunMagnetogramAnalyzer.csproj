@@ -143,7 +143,6 @@
     <Content Include="Funpack.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="sun-day-weather-symbol_icon-icons.com_73146.ico" />
     <Content Include="sun.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
