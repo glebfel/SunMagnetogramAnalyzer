@@ -274,7 +274,6 @@ namespace SunMagnetogramAnalyzer
             }
             else
                 dataPictureBox.Image = new Bitmap(250, 250);
-
             ControlsUpdate();
         }
 

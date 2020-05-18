@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FITSExceptions
+namespace non.tam.fits
 {
 	class AbsenceOfDateException : Exception
 	{
