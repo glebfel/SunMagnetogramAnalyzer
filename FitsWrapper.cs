@@ -37,7 +37,6 @@ namespace SunMagnetogramAnalyzer
         {
             fits = new Fits(file, FileAccess.Read);
             hdus = fits.Read();
-
             if (hdus == null) 
             { 
                 table = null; 
@@ -147,7 +146,7 @@ namespace SunMagnetogramAnalyzer
                 minDateTime = DateTime.MaxValue;
                 maxDateTime = DateTime.MinValue;
 
-                if (!hdr.ContainsKey("DATE-OBS")) 
+                if (!hdr.ContainsKey("DATE-OBS"))
                     break;
                 DateTime dateTime;
                 if (!DateTime.TryParse(hdr.GetStringValue("DATE-OBS"), out dateTime))
@@ -310,7 +309,7 @@ namespace SunMagnetogramAnalyzer
                 else if (bitpix == BitPix.Bits32) 
                     trnValue = Int32.MinValue;
 
-                // Расчет среднего значения значения в заданном диапазоне
+                // Расчет среднего значения в заданном диапазоне
                 int pointCount = 0;
                 for (int x = 0; x < width; x++)
                     for (int y = 0; y < height; y++)

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\nom\tam\fits\AbsenceOfDateException.cs" />
     <Compile Include="src\nom\tam\fits\AsciiTable.cs" />
     <Compile Include="src\nom\tam\fits\AsciiTableHDU.cs" />
     <Compile Include="src\nom\tam\fits\BadHeaderException.cs" />
@@ -77,6 +78,8 @@
     <Compile Include="src\nom\tam\fits\HeaderOrder.cs" />
     <Compile Include="src\nom\tam\fits\ImageData.cs" />
     <Compile Include="src\nom\tam\fits\ImageHDU.cs" />
+    <Compile Include="src\nom\tam\fits\InvalidAxisNumberException.cs" />
+    <Compile Include="src\nom\tam\fits\InvalidStructureException.cs" />
     <Compile Include="src\nom\tam\fits\RandomGroupsData.cs" />
     <Compile Include="src\nom\tam\fits\RandomGroupsHDU.cs" />
     <Compile Include="src\nom\tam\fits\StreamedBinaryTableHDU.cs" />

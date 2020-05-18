@@ -93,10 +93,6 @@ namespace SunMagnetogramAnalyzer
                 // Вызов диалогового окна открытия файла
 
                 openFileDialog.Title = "Открыть FITS-файл";
-                // Возможные варианты начальной папки в диалоговом окне
-                // openFileDialog.InitialDirectory = "c:\\"; // Диск C:
-                // openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop); // Рабочий стол
-                // openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); // Мои Документы
                 openFileDialog.InitialDirectory = "::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"; // Мой компьютер
                 openFileDialog.Filter = "FITS-файлы (*.fits)|*.fits|Все файлы (*.*)|*.*";
                 openFileDialog.FilterIndex = 1;
@@ -239,12 +235,12 @@ namespace SunMagnetogramAnalyzer
             {
                 fits.ReadHeader(files[unitsList[crtUnitIndex].FileIndex], unitsList[crtUnitIndex].HDUIndex, out table, out hasImage);
             }
-            catch (Exception excp)
+            catch (Exception ex)
             {
                 MessageBox.Show(
                     $"Не удалось открыть заголовок №{unitsList[crtUnitIndex].HDUIndex}" +
                     $" файла \"{files[unitsList[crtUnitIndex].FileIndex]}\":\n" +
-                    $"{excp.Message}",
+                    $"{ex.Message}",
                     "Ошибка открытия файла",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
