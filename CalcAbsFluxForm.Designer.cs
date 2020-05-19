@@ -42,8 +42,6 @@
 			this.dataChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
 			this.saveButton = new System.Windows.Forms.Button();
 			this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.maxAmplTrackBar)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.minAmplTrackBar)).BeginInit();
@@ -157,37 +155,11 @@
 			this.saveButton.UseVisualStyleBackColor = true;
 			this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
 			// 
-			// textBox1
-			// 
-			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.textBox1.Location = new System.Drawing.Point(13, 176);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(78, 17);
-			this.textBox1.TabIndex = 11;
-			this.textBox1.Text = "Гаусс";
-			this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox1.Visible = false;
-			// 
-			// textBox2
-			// 
-			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.textBox2.Location = new System.Drawing.Point(1016, 486);
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(92, 17);
-			this.textBox2.TabIndex = 12;
-			this.textBox2.Text = "Дата";
-			this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-			this.textBox2.Visible = false;
-			// 
 			// CalcAbsFluxForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1121, 653);
-			this.Controls.Add(this.textBox2);
-			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.saveButton);
 			this.Controls.Add(this.dataChart);
 			this.Controls.Add(this.calcButton);
@@ -204,7 +176,6 @@
 			((System.ComponentModel.ISupportInitialize)(this.minAmplTrackBar)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.dataChart)).EndInit();
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
@@ -222,7 +193,5 @@
 		private System.Windows.Forms.DataVisualization.Charting.Chart dataChart;
 		private System.Windows.Forms.Button saveButton;
 		private System.Windows.Forms.SaveFileDialog saveFileDialog;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.TextBox textBox2;
 	}
 }
