@@ -92,6 +92,8 @@ namespace SunMagnetogramAnalyzer
 			// активация кнопки сохранения
 			if (i > 0)
 				saveButton.Enabled = true;
+				textBox1.Visible = true;
+				textBox2.Visible = true;
 		}
 
 		private void minAmplLabel_Click(object sender, EventArgs e)

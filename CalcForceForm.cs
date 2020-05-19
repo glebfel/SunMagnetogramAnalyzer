@@ -72,7 +72,6 @@ namespace SunMagnetogramAnalyzer
 
                 foreach (DateValue point in points)
                     dataChart.Series["SumSeries"].Points.AddXY(point.Date, point.Value);
-
                 i++;
                 var progress = (int)(100 * i / files.Length);
                 progressBar.Value = progress;
@@ -82,6 +81,8 @@ namespace SunMagnetogramAnalyzer
             // активация кнопки сохранения
             if (i > 0)
                 saveButton.Enabled = true;
+                textBox1.Visible = true;
+                textBox2.Visible = true;
         }
 
       
