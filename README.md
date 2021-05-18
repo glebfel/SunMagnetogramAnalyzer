@@ -1,2 +1,2 @@
-# SunMagnetogramAnalyzer
- SunMagnetogramAnalyzer
+Курсовой проект на тему "Анализ последовательности магнитограмм Солнца"
+Написан на C# с использованием библиотек CSharpFits и WinForms
